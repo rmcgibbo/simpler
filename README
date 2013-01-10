@@ -1,0 +1,11 @@
+Simple version of ipython's rmagic, suitable for use outside ipython.
+
+Examples
+--------
+
+```
+from simpler import r
+r.push(a=10, b=20)
+r.eval('print(a)')
+print r.get(b)
+```
